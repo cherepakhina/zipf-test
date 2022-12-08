@@ -1,0 +1,2 @@
+module DistributionDataCarmillasHelper
+end
