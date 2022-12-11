@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Zipf distribution of "Carmilla" by Sheridan Le Fanu</h1>
+  <p>This distribution uses full text of the 1872 Gothic novella "Carmilla" 
+      by Sheridan Le Fanu, with text provided by The Project Gutenberg.</p>
+  <%= column_chart [['the', 1406],['and',1044],['i',879],['a',696],['of',686],['to',638],
+  ['in',521],['was',427],['my',414],
+  ['her',369],['it',336],['that',335],['you',322],['with',293],
+  ['she',280],['as',244],['had',244],['me',238],['he',228],
+  ['which',193],['not',183],['but',179],['is',175],['at',171],['for',164],
+  ['have',153],['so',148],['his',143],['on',137],
+  ['very',134],['we',128],['were',127],['all',126],['from',121],
+  ['this',121],['by',120],['said',114],['be',103],['there',95]],
+  download: {filename: "carmilla_graph", background: "#ffffff"} %>
+</div>
